@@ -1,0 +1,56 @@
+
+.header{
+    text-align: center;
+
+}
+
+
+.form-group{
+    margin: 3.5vw 5vw;
+    position: relative
+
+}
+.form-control{
+    padding: 10px;
+    padding-top: 5px;
+    border: none;
+    border-radius: 4px;
+    font: inherit;
+    color: #e3dbdb;
+    background-color: transparent;
+    outline: 2px solid #060413;
+}
+.form-label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(10px, 10px);
+    transition: transform .25s;
+    font-size: 13px;
+}
+.form-control:focus+ .form-label,
+.form-control:valid+ .form-label{
+    transform: translate(1px , -20px) scale(1.0);
+    color: rgb(16, 187, 0);
+    padding-inline: 15px;
+    background-color: #060413;
+    border-radius: 5px;
+    letter-spacing: 0.1px;
+}
+.form-control:is(:focus, :valid){
+    outline-color: #060413;
+}
+.btn{
+    background: rgb(16, 187, 0)no-repeat center;
+    color: #242329;
+    border-radius: 5px;
+    border-color: #060413;
+}
+.btn:hover{
+    color: white;
+}
+
+
+
+
+

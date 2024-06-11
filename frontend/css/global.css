@@ -1,0 +1,134 @@
+/* TEXT */
+.text-center{
+    text-align: center;
+}
+.text-center1{
+    margin-top: -2rem;
+    padding-bottom: 1.5rem;
+}
+.text-center2{
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+}
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 2.2rem;
+}
+
+/* COMPATIBLE COLOR CODES */
+.bg-color0{
+    color:white;
+}
+.bg-color1{
+    color:#231b1b;
+}
+.bg-color2{
+    color:#6b5252;
+}
+.bg-color3{
+    color:#D3B19E;
+}
+.bg-color4{
+    color:#995E7C;
+}
+.bg-color5{
+    color:#D39CBD;
+}
+.bg-color6{
+    color:#683142;
+}
+.bg-color7{
+    color:#312528;
+}
+.bg-color8{
+    color:#060413;
+}
+.bg-color9{
+    color: rgb(16, 187, 0);
+ }
+
+/* COLORS */
+.bg-dark-blue{
+    background: #060413;
+}
+.bg-light-blue{
+    background: rgb(16, 187, 0);
+}
+.bg-dark{
+    color: #231b1b;
+}
+.bg-light{
+    color: rgb(16, 187, 0);
+}
+
+/* BUTTONS */
+.btn{
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+.btn-primary{
+    border: 1px solid ;
+    background: rgb(16, 187, 0);
+}
+.btn-primary:hover{
+    color: #6b5252;
+    background: #e3dbdb;
+    border: 1px solid #6b5252;
+}
+.btn-dark{
+    background: #333;
+}
+.btn-light{
+    background: #e3dbdb ;
+}
+.btn-dark:hover{
+    color: #333;
+    background: #e3dbdb;
+    border: 0.5px solid #333;
+}
+.btn-block{
+    width: 50%;
+    text-align: center;
+}
+
+/* Forms */
+.form-group{
+    padding: 0.25rem 0;
+}
+.form-group label{
+    display: block;
+}
+.form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px ;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Images */
+#courses .container .courses .course .course-image img{
+    position: top left;
+    max-width:200px;
+    height: auto;
+    border-radius: 5px;
+}
+#courses1 .container .courses .course .course-image img{
+    position: top left;
+    max-width:90px;
+    height: auto;
+    border-radius: 5px;
+}

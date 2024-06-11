@@ -1,0 +1,37 @@
+
+
+
+/* profile */
+.cns-inf{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #4d4545;
+}
+.cnt{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #090d11;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #060413;
+    color: #ffffff;
+}
+.cnt-exp{
+    margin-left: 20px;
+}
+.alt-cnt{
+    display: flex;
+    padding-top: 30px;
+    margin-left: 3rem;
+}
+.img-prsn{
+    width: 160px;
+    height: 150px;
+    margin-right: o;
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-right: 5rem;
+    border-radius: 50%;
+}
